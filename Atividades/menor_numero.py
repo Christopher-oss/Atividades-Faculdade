@@ -17,10 +17,11 @@ else:
         else:
             menor = numero_1
 
-        if numero_2 > menor:
+        if numero_2 < menor:
             menor = numero_2
 
-        if numero_2 > menor:
-            menor = numero_2
+        if numero_3 < menor:
+            menor = numero_3
         
+            
         print ('O menor numero é:',menor)
