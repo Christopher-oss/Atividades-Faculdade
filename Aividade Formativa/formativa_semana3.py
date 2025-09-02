@@ -24,7 +24,7 @@ while True:
             while True:
                 opcao_final = int(input("DIGITE A OPÇÃO DESEJADA: "))
                 if opcao_final == 0:
-                    break  # volta ao menu principal
+                    break;  # volta ao menu principal
                 else:
                     print("\nOpção Inválida! Digite 0 para voltar ao menu principal.")
 
