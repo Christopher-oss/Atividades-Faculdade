@@ -1,11 +1,12 @@
  
 usuario = str(input("Insira seu nome: "))
 estudantes = []
+print("\nSeja Bem-Vindo", usuario,"!")
 
 while True:
     
-    print("\nSeja Bem-Vindo", usuario,"!")
-    print("\n***MENU INICIAL***","\nESCOLHA UMA DAS OPÇÕES:","\n(1) Gerenciar Estudantes.","\n(2) Gerenciar Professores.","\n(3) Gerenciar Disciplinas.","\n(4) Gerenciar Turmas.","\n(5) Gerenciar Matrículas.","\n\n(0) SAIR DO SISTEMA!")
+    
+    print("\n***MENU INICIAL***","\n\nESCOLHA UMA DAS OPÇÕES:","\n(1) Gerenciar Estudantes.","\n(2) Gerenciar Professores.","\n(3) Gerenciar Disciplinas.","\n(4) Gerenciar Turmas.","\n(5) Gerenciar Matrículas.","\n\n(0) SAIR DO SISTEMA!")
     
     #Menu Inicial
     try:
@@ -15,7 +16,7 @@ while True:
     if opcao == 1:
         
         while True:
-            print ("\n***MENU DE OPERAÇÕES***","\nESCOLHA UMA DAS OPÇÕES:","\n(1) Incluir.\n(2) Listar.\n(3) Atualizar.\n(4) Excluir.\n\n(0) Voltar ao Menu Principal.")
+            print ("\n***MENU DE OPERAÇÕES***","\n\nESCOLHA UMA DAS OPÇÕES:","\n(1) Incluir.\n(2) Listar.\n(3) Atualizar.\n(4) Excluir.\n\n(0) Voltar ao Menu Principal.")
             try:
                 opcao_dois = int(input("Insira a Opção Desejada: "))
             except ValueError:
@@ -46,7 +47,7 @@ while True:
                         print(estudante)
                         
             elif opcao_dois == 3:
-                print("EM DESENVOLVIMENTO")
+                print("\nEM DESENVOLVIMENTO")
                 break
             
             if opcao_dois == 4:
